@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #717A81;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	background-color: #000;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#hero{
+	background-image: url(../img/v36-intro.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+	color: #fff;
+}
+
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#hero h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+}
+
+#hero .btn,
+#products .btn,
+.btn-azul{
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+}
+
+
+.title{
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+	color: #303132;
+	margin-bottom: 30px;
+}
+.subtitle{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section{
+	padding: 80px 0;	
+}
+
+#what{
+	text-align: center;
+}
+
+#what article h4{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #303132;
+	letter-spacing: 1px;
+}
+
+
+#products{
+	background-color: #000;
+	color: #fff;
+}
+
+#products .title{
+	text-align: left;
+	color: #fff;
+}
+
+#products .subtitle{
+	text-align: left;
+	color: #d2d2d2;
+	font-size: 18px;
+}
+
+.title-ptop{
+	padding-top: 100px;
+}
+
+
+#pods .title{
+	text-align: left;
+	margin-top: 130px;
+	margin-bottom: 5px;
+}
+
+#pods h3{
+	text-transform: uppercase;
+	color: #4859fc;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#pods p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+
+.btn-azul{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #4859fc;
+	border-color: #4859fc;
+}
+.btn-blanco{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #979797;
+	text-transform: uppercase;
+	background-color: #fff;
+	border: 2px solid #979797;
+	border-radius: 40px;
+	margin-left: 20px;
+}
+.btn-blanco:hover{
+	background-color: #4859fc;
+	border-color: #4859fc;
+}
+
+
+
+#reviews{
+	background-color: #4859fc;
+	text-align: center;
+}
+#reviews .title{
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+#reviews article{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#reviews .info-review{
+	background-color: #fff;
+	padding: 35px 20px;
+	box-shadow: 0px 0px 20px 2px #283ea7;
+}
+
+.info-review h3{
+	color: #203132;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.info-review h4{
+	font-size: 14px;	
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.info-review p{
+	font-size: 16px;
+}
+
+#reviews article:first-child,
+#reviews article:last-child
+{
+	margin-top: 0px;
+}
+
+#reviews article:nth-child(2){
+	transform: translateY(-25px);
+}
+
+
+
+
+
+
+
